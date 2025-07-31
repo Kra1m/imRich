@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
 //            }
 //        }
 
+        binding.btnImage.setImageResource(R.drawable.im_rich1)
 
         binding.btnImage.setOnClickListener{
             if (change){
